@@ -1,0 +1,47 @@
+/* Global */
+.wrapper{
+
+    width: 1100px;
+    margin: 0 auto;
+
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Helpers */
+
+.clearfix::after{
+
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+/*Header*/
+
+#header{
+    background-color: #87509c;
+    height: 596px;
+    position: relative;  
+}
+
+#logo{
+
+    padding-top: ;
+    padding-left: ;
+}
+
+#nav{
+
+
+}
+
+#list{
+
+
+}
