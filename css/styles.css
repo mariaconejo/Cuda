@@ -1,0 +1,119 @@
+/* Global */
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+
+h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 42px;
+}
+
+h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Helpers */
+
+.clearfix::after{
+
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.wrapper{
+
+    width: 1100px;
+    margin: 0 auto;
+
+}
+
+
+/*Header*/
+
+#color-one{
+    background-color: #87509c;
+}
+
+#header{
+    position: relative;  
+}
+
+#logo{
+
+    padding-top: 58px;
+    padding-left: 42px;
+}
+
+
+
+#nav-list{
+
+    padding-top: 53px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+#nav-list li{
+
+    list-style: none;
+    float: left;
+}
+
+#nav-list li + li{
+    margin-left: 45px;
+}
+
+
+
+#nav-list a{
+
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+#color-btn{
+
+    margin-bottom: 145px;
+    margin-top: 145px;
+
+}
+
+
+#color-btn a {
+
+    background-color: #eb7d4b;
+    text-decoration: none;
+    width: 294px;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 4px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+
+
+
+#color-btn h1{
+    margin-bottom: 63px;
+}
+
+
+/* Main */
+
